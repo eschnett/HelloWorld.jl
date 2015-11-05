@@ -1,5 +1,9 @@
 module HelloWorld
 
-# package code goes here
+export hello
+
+function hello()
+  "Hello, World!"
+end
 
 end # module
